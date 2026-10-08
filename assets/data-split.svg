@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
+  <title id="title">Train, validation, and test data</title>
+  <desc id="desc">The dataset is divided into train, validation, and test subsets. Train is used to train the model, validation is used to select the model and hyperparameters, and test is used for final evaluation.</desc>
+  <defs>
+    <clipPath id="split-bar-clip" clipPathUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="1200" height="130" rx="10"/>
+    </clipPath>
+  </defs>
+  <rect width="1400" height="420" fill="#ffffff"/>
+
+  <g transform="translate(100 70)" font-family="Arial, Helvetica, sans-serif" clip-path="url(#split-bar-clip)">
+    <rect x="0" y="0" width="960" height="130" fill="#4c78a8"/>
+    <rect x="960" y="0" width="120" height="130" fill="#d9d9d9"/>
+    <rect x="1080" y="0" width="120" height="130" fill="#f2b56b"/>
+    <path d="M960 0V130M1080 0V130" stroke="#ffffff" stroke-width="4"/>
+
+    <g text-anchor="middle" font-size="22" font-weight="700">
+      <text x="480" y="78" fill="#ffffff">Train</text>
+      <text x="1020" y="78" fill="#1f2937">Validation</text>
+      <text x="1140" y="78" fill="#1f2937">Test</text>
+    </g>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <line x1="580" y1="210" x2="580" y2="260" stroke="#4c78a8" stroke-width="3"/>
+    <circle cx="580" cy="262" r="5" fill="#4c78a8"/>
+    <text x="580" y="305" font-size="21" font-weight="700" fill="#1f2937">Train the model</text>
+
+    <path d="M1120 210V235L1020 260" fill="none" stroke="#9ca3af" stroke-width="3"/>
+    <circle cx="1020" cy="262" r="5" fill="#9ca3af"/>
+    <text x="1020" y="305" font-size="21" font-weight="700" fill="#1f2937">Select the model and</text>
+    <text x="1020" y="335" font-size="21" font-weight="700" fill="#1f2937">hyperparameters</text>
+
+    <path d="M1240 210V235L1270 260" fill="none" stroke="#d28a35" stroke-width="3"/>
+    <circle cx="1270" cy="262" r="5" fill="#d28a35"/>
+    <text x="1270" y="305" font-size="21" font-weight="700" fill="#1f2937">Final evaluation</text>
+  </g>
+</svg>

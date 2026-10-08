@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="780" viewBox="0 0 1600 780" role="img" aria-labelledby="title desc">
+  <title id="title">5-Fold Cross-Validation with Test Set</title>
+  <desc id="desc">The test set remains separate. The other data is divided into five folds. In each round, one light-gray fold is used for validation and the remaining folds are used for training.</desc>
+  <rect width="1600" height="780" fill="#ffffff"/>
+
+  <text x="800" y="58" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#1f2937">5-Fold Cross-Validation with Test Set</text>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="70" y="105" width="210" height="72" rx="8" fill="#f2b56b"/>
+    <text x="175" y="150" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">Test Set</text>
+
+    <g transform="translate(320 105)">
+      <rect x="0" y="0" width="240" height="72" fill="#b7d4ea"/>
+      <rect x="240" y="0" width="240" height="72" fill="#b7d4ea"/>
+      <rect x="480" y="0" width="240" height="72" fill="#b7d4ea"/>
+      <rect x="720" y="0" width="240" height="72" fill="#b7d4ea"/>
+      <rect x="960" y="0" width="240" height="72" fill="#b7d4ea"/>
+      <rect x="0" y="0" width="1200" height="72" rx="8" fill="none" stroke="#4c78a8" stroke-width="3"/>
+      <path d="M240 0V72M480 0V72M720 0V72M960 0V72" stroke="#ffffff" stroke-width="3"/>
+      <g text-anchor="middle" font-size="18" font-weight="700" fill="#1f2937">
+        <text x="120" y="44">Fold 1</text>
+        <text x="360" y="44">Fold 2</text>
+        <text x="600" y="44">Fold 3</text>
+        <text x="840" y="44">Fold 4</text>
+        <text x="1080" y="44">Fold 5</text>
+      </g>
+    </g>
+
+    <g transform="translate(0 225)">
+      <g font-size="20" font-weight="700" fill="#1f2937">
+        <text x="15" y="42">Round 1</text>
+        <text x="15" y="122">Round 2</text>
+        <text x="15" y="202">Round 3</text>
+        <text x="15" y="282">Round 4</text>
+        <text x="15" y="362">Round 5</text>
+      </g>
+
+      <g text-anchor="middle" font-size="17" font-weight="700" fill="#6b4c23">
+        <rect x="120" y="0" width="160" height="58" rx="7" fill="#f9dfbf" stroke="#f2b56b" stroke-width="2"/>
+        <text x="200" y="36">Test Set</text>
+        <rect x="120" y="80" width="160" height="58" rx="7" fill="#f9dfbf" stroke="#f2b56b" stroke-width="2"/>
+        <text x="200" y="116">Test Set</text>
+        <rect x="120" y="160" width="160" height="58" rx="7" fill="#f9dfbf" stroke="#f2b56b" stroke-width="2"/>
+        <text x="200" y="196">Test Set</text>
+        <rect x="120" y="240" width="160" height="58" rx="7" fill="#f9dfbf" stroke="#f2b56b" stroke-width="2"/>
+        <text x="200" y="276">Test Set</text>
+        <rect x="120" y="320" width="160" height="58" rx="7" fill="#f9dfbf" stroke="#f2b56b" stroke-width="2"/>
+        <text x="200" y="356">Test Set</text>
+      </g>
+
+      <g transform="translate(320 0)">
+        <g>
+          <rect x="0" y="0" width="240" height="58" fill="#d9d9d9"/>
+          <rect x="240" y="0" width="240" height="58" fill="#b7d4ea"/>
+          <rect x="480" y="0" width="240" height="58" fill="#b7d4ea"/>
+          <rect x="720" y="0" width="240" height="58" fill="#b7d4ea"/>
+          <rect x="960" y="0" width="240" height="58" fill="#b7d4ea"/>
+        </g>
+        <g transform="translate(0 80)">
+          <rect x="0" y="0" width="240" height="58" fill="#b7d4ea"/>
+          <rect x="240" y="0" width="240" height="58" fill="#d9d9d9"/>
+          <rect x="480" y="0" width="240" height="58" fill="#b7d4ea"/>
+          <rect x="720" y="0" width="240" height="58" fill="#b7d4ea"/>
+          <rect x="960" y="0" width="240" height="58" fill="#b7d4ea"/>
+        </g>
+        <g transform="translate(0 160)">
+          <rect x="0" y="0" width="240" height="58" fill="#b7d4ea"/>
+          <rect x="240" y="0" width="240" height="58" fill="#b7d4ea"/>
+          <rect x="480" y="0" width="240" height="58" fill="#d9d9d9"/>
+          <rect x="720" y="0" width="240" height="58" fill="#b7d4ea"/>
+          <rect x="960" y="0" width="240" height="58" fill="#b7d4ea"/>
+        </g>
+        <g transform="translate(0 240)">
+          <rect x="0" y="0" width="240" height="58" fill="#b7d4ea"/>
+          <rect x="240" y="0" width="240" height="58" fill="#b7d4ea"/>
+          <rect x="480" y="0" width="240" height="58" fill="#b7d4ea"/>
+          <rect x="720" y="0" width="240" height="58" fill="#d9d9d9"/>
+          <rect x="960" y="0" width="240" height="58" fill="#b7d4ea"/>
+        </g>
+        <g transform="translate(0 320)">
+          <rect x="0" y="0" width="240" height="58" fill="#b7d4ea"/>
+          <rect x="240" y="0" width="240" height="58" fill="#b7d4ea"/>
+          <rect x="480" y="0" width="240" height="58" fill="#b7d4ea"/>
+          <rect x="720" y="0" width="240" height="58" fill="#b7d4ea"/>
+          <rect x="960" y="0" width="240" height="58" fill="#d9d9d9"/>
+        </g>
+
+        <g text-anchor="middle" font-size="15" font-weight="700" fill="#1f2937">
+          <text x="120" y="35">Validation</text><text x="360" y="35">Training</text><text x="600" y="35">Training</text><text x="840" y="35">Training</text><text x="1080" y="35">Training</text>
+          <text x="120" y="115">Training</text><text x="360" y="115">Validation</text><text x="600" y="115">Training</text><text x="840" y="115">Training</text><text x="1080" y="115">Training</text>
+          <text x="120" y="195">Training</text><text x="360" y="195">Training</text><text x="600" y="195">Validation</text><text x="840" y="195">Training</text><text x="1080" y="195">Training</text>
+          <text x="120" y="275">Training</text><text x="360" y="275">Training</text><text x="600" y="275">Training</text><text x="840" y="275">Validation</text><text x="1080" y="275">Training</text>
+          <text x="120" y="355">Training</text><text x="360" y="355">Training</text><text x="600" y="355">Training</text><text x="840" y="355">Training</text><text x="1080" y="355">Validation</text>
+        </g>
+      </g>
+    </g>
+
+    <g transform="translate(480 690)">
+      <rect x="0" y="0" width="25" height="25" fill="#b7d4ea" stroke="#4c78a8"/>
+      <text x="38" y="19" font-size="17" fill="#1f2937">Training fold</text>
+      <rect x="205" y="0" width="25" height="25" fill="#d9d9d9" stroke="#9ca3af"/>
+      <text x="243" y="19" font-size="17" fill="#1f2937">Validation fold</text>
+      <rect x="430" y="0" width="25" height="25" fill="#f9dfbf" stroke="#f2b56b"/>
+      <text x="468" y="19" font-size="17" fill="#1f2937">Test set</text>
+    </g>
+  </g>
+</svg>
