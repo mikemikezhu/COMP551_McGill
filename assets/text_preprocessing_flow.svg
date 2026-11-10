@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="1110" viewBox="0 0 1300 1110" role="img" aria-labelledby="diagram-title diagram-desc">
+<title id="diagram-title">Text preprocessing flow</title>
+<desc id="diagram-desc">An unnumbered example sentence followed by tokenization, two vertical word-to-ID vocabulary tables, a two-row numericalization table, and a two-row padding table. The four padding zeros are outlined in red.</desc>
+<rect width="1300" height="1110" fill="#ffffff"/>
+<rect x="60" y="35" width="1180" height="70" rx="13" fill="#f7f9fc" stroke="#b7c7d8" stroke-width="2"/>
+<text x="90" y="64" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#62738b">EXAMPLE SENTENCE</text>
+<text x="90" y="93" text-anchor="start" font-family="Menlo, Consolas, monospace" font-size="27" font-weight="400" fill="#18253d">this movie is great and fantastic</text>
+<line x1="650" y1="111" x2="650" y2="116" stroke="#54708e" stroke-width="3"/>
+<polygon points="641,115 659,115 650,128" fill="#54708e"/>
+<rect x="60" y="135" width="1180" height="125" rx="14" fill="#ffffff" stroke="#b7c7d8" stroke-width="2"/>
+<rect x="61" y="136" width="1178" height="48" rx="13" fill="#eef4fc" stroke="none" stroke-width="0"/>
+<rect x="61" y="167" width="1178" height="17" rx="0" fill="#eef4fc" stroke="none" stroke-width="0"/>
+<text x="90" y="171" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#244b7b">1  TOKENIZATION</text>
+<rect x="95" y="194" width="170" height="48" rx="10" fill="#f3f7fd" stroke="#bdcde0" stroke-width="1.5"/>
+<text x="180" y="226" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="22" font-weight="400" fill="#18253d">this</text>
+<rect x="278" y="194" width="170" height="48" rx="10" fill="#f3f7fd" stroke="#bdcde0" stroke-width="1.5"/>
+<text x="363" y="226" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="22" font-weight="400" fill="#18253d">movie</text>
+<rect x="461" y="194" width="170" height="48" rx="10" fill="#f3f7fd" stroke="#bdcde0" stroke-width="1.5"/>
+<text x="546" y="226" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="22" font-weight="400" fill="#18253d">is</text>
+<rect x="644" y="194" width="170" height="48" rx="10" fill="#f3f7fd" stroke="#bdcde0" stroke-width="1.5"/>
+<text x="729" y="226" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="22" font-weight="400" fill="#18253d">great</text>
+<rect x="827" y="194" width="170" height="48" rx="10" fill="#f3f7fd" stroke="#bdcde0" stroke-width="1.5"/>
+<text x="912" y="226" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="22" font-weight="400" fill="#18253d">and</text>
+<rect x="1010" y="194" width="170" height="48" rx="10" fill="#f3f7fd" stroke="#bdcde0" stroke-width="1.5"/>
+<text x="1095" y="226" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="22" font-weight="400" fill="#18253d">fantastic</text>
+<line x1="650" y1="267" x2="650" y2="283" stroke="#54708e" stroke-width="3"/>
+<polygon points="641,282 659,282 650,295" fill="#54708e"/>
+<rect x="60" y="305" width="1180" height="320" rx="14" fill="#ffffff" stroke="#b7c7d8" stroke-width="2"/>
+<rect x="61" y="306" width="1178" height="48" rx="13" fill="#e9f5f3" stroke="none" stroke-width="0"/>
+<rect x="61" y="337" width="1178" height="17" rx="0" fill="#e9f5f3" stroke="none" stroke-width="0"/>
+<text x="90" y="341" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#13655f">2  BUILD VOCABULARY</text>
+<rect x="110" y="370" width="420" height="228" rx="4" fill="#ffffff" stroke="#9eb3c7" stroke-width="1.8"/>
+<rect x="111" y="371" width="418" height="43" rx="0" fill="#f3f7fb" stroke="none" stroke-width="0"/>
+<line x1="430" y1="370" x2="430" y2="598" stroke="#b7c7d8" stroke-width="1.3"/>
+<line x1="110" y1="414" x2="530" y2="414" stroke="#b7c7d8" stroke-width="1.2"/>
+<line x1="110" y1="460" x2="530" y2="460" stroke="#b7c7d8" stroke-width="1.2"/>
+<line x1="110" y1="506" x2="530" y2="506" stroke="#b7c7d8" stroke-width="1.2"/>
+<line x1="110" y1="552" x2="530" y2="552" stroke="#b7c7d8" stroke-width="1.2"/>
+<text x="132" y="400" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#354b67">Word</text>
+<text x="480" y="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#354b67">ID</text>
+<text x="132" y="444" text-anchor="start" font-family="Menlo, Consolas, monospace" font-size="21" font-weight="400" fill="#18253d">this</text>
+<text x="480" y="444" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="22" font-weight="700" fill="#153a3b">3</text>
+<text x="132" y="490" text-anchor="start" font-family="Menlo, Consolas, monospace" font-size="21" font-weight="400" fill="#18253d">movie</text>
+<text x="480" y="490" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="22" font-weight="700" fill="#153a3b">4</text>
+<text x="132" y="536" text-anchor="start" font-family="Menlo, Consolas, monospace" font-size="21" font-weight="400" fill="#18253d">is</text>
+<text x="480" y="536" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="22" font-weight="700" fill="#153a3b">10</text>
+<text x="132" y="582" text-anchor="start" font-family="Menlo, Consolas, monospace" font-size="21" font-weight="400" fill="#18253d">great</text>
+<text x="480" y="582" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="22" font-weight="700" fill="#153a3b">9</text>
+<rect x="630" y="370" width="420" height="228" rx="4" fill="#ffffff" stroke="#9eb3c7" stroke-width="1.8"/>
+<rect x="631" y="371" width="418" height="43" rx="0" fill="#f3f7fb" stroke="none" stroke-width="0"/>
+<line x1="950" y1="370" x2="950" y2="598" stroke="#b7c7d8" stroke-width="1.3"/>
+<line x1="630" y1="414" x2="1050" y2="414" stroke="#b7c7d8" stroke-width="1.2"/>
+<line x1="630" y1="460" x2="1050" y2="460" stroke="#b7c7d8" stroke-width="1.2"/>
+<line x1="630" y1="506" x2="1050" y2="506" stroke="#b7c7d8" stroke-width="1.2"/>
+<line x1="630" y1="552" x2="1050" y2="552" stroke="#b7c7d8" stroke-width="1.2"/>
+<text x="652" y="400" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#354b67">Word</text>
+<text x="1000" y="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#354b67">ID</text>
+<text x="652" y="444" text-anchor="start" font-family="Menlo, Consolas, monospace" font-size="21" font-weight="400" fill="#18253d">and</text>
+<text x="1000" y="444" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="22" font-weight="700" fill="#153a3b">2</text>
+<text x="652" y="490" text-anchor="start" font-family="Menlo, Consolas, monospace" font-size="21" font-weight="400" fill="#18253d">fantastic</text>
+<text x="1000" y="490" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="22" font-weight="700" fill="#153a3b">25</text>
+<text x="652" y="536" text-anchor="start" font-family="Menlo, Consolas, monospace" font-size="21" font-weight="400" fill="#a13a3a">&lt;PAD&gt;</text>
+<text x="1000" y="536" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="22" font-weight="700" fill="#a13a3a">0</text>
+<text x="652" y="582" text-anchor="start" font-family="Menlo, Consolas, monospace" font-size="21" font-weight="400" fill="#a13a3a">&lt;UNK&gt;</text>
+<text x="1000" y="582" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="22" font-weight="700" fill="#a13a3a">1</text>
+<path d="M 1064 506 C 1080 506, 1080 519, 1080 532 C 1080 544, 1087 552, 1098 552 C 1087 552, 1080 560, 1080 572 C 1080 585, 1080 598, 1064 598" fill="none" stroke="#a13a3a" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1105" y="558" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#a13a3a">special tokens</text>
+<line x1="650" y1="632" x2="650" y2="643" stroke="#54708e" stroke-width="3"/>
+<polygon points="641,642 659,642 650,655" fill="#54708e"/>
+<rect x="60" y="665" width="1180" height="160" rx="14" fill="#ffffff" stroke="#b7c7d8" stroke-width="2"/>
+<rect x="61" y="666" width="1178" height="48" rx="13" fill="#eef4fc" stroke="none" stroke-width="0"/>
+<rect x="61" y="697" width="1178" height="17" rx="0" fill="#eef4fc" stroke="none" stroke-width="0"/>
+<text x="90" y="701" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#244b7b">3  NUMERICALIZATION</text>
+<rect x="90" y="730" width="1120" height="76" rx="4" fill="#ffffff" stroke="#9eb3c7" stroke-width="1.8"/>
+<rect x="91" y="731" width="1118" height="37.0" rx="0" fill="#f3f7fb" stroke="none" stroke-width="0"/>
+<line x1="90" y1="768.0" x2="1210" y2="768.0" stroke="#9eb3c7" stroke-width="1.4"/>
+<line x1="276.66666666666663" y1="730" x2="276.66666666666663" y2="806" stroke="#b7c7d8" stroke-width="1.2"/>
+<line x1="463.3333333333333" y1="730" x2="463.3333333333333" y2="806" stroke="#b7c7d8" stroke-width="1.2"/>
+<line x1="650.0" y1="730" x2="650.0" y2="806" stroke="#b7c7d8" stroke-width="1.2"/>
+<line x1="836.6666666666666" y1="730" x2="836.6666666666666" y2="806" stroke="#b7c7d8" stroke-width="1.2"/>
+<line x1="1023.3333333333333" y1="730" x2="1023.3333333333333" y2="806" stroke="#b7c7d8" stroke-width="1.2"/>
+<text x="183.33333333333331" y="756.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="20" font-weight="400" fill="#354b67">this</text>
+<text x="183.33333333333331" y="795.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="23" font-weight="700" fill="#153a3b">3</text>
+<text x="370.0" y="756.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="20" font-weight="400" fill="#354b67">movie</text>
+<text x="370.0" y="795.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="23" font-weight="700" fill="#153a3b">4</text>
+<text x="556.6666666666666" y="756.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="20" font-weight="400" fill="#354b67">is</text>
+<text x="556.6666666666666" y="795.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="23" font-weight="700" fill="#153a3b">10</text>
+<text x="743.3333333333333" y="756.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="20" font-weight="400" fill="#354b67">great</text>
+<text x="743.3333333333333" y="795.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="23" font-weight="700" fill="#153a3b">9</text>
+<text x="930.0" y="756.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="20" font-weight="400" fill="#354b67">and</text>
+<text x="930.0" y="795.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="23" font-weight="700" fill="#153a3b">2</text>
+<text x="1116.6666666666665" y="756.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="20" font-weight="400" fill="#354b67">fantastic</text>
+<text x="1116.6666666666665" y="795.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="23" font-weight="700" fill="#153a3b">25</text>
+<line x1="650" y1="832" x2="650" y2="843" stroke="#54708e" stroke-width="3"/>
+<polygon points="641,842 659,842 650,855" fill="#54708e"/>
+<rect x="60" y="865" width="1180" height="220" rx="14" fill="#ffffff" stroke="#b7c7d8" stroke-width="2"/>
+<rect x="61" y="866" width="1178" height="48" rx="13" fill="#e9f5f3" stroke="none" stroke-width="0"/>
+<rect x="61" y="897" width="1178" height="17" rx="0" fill="#e9f5f3" stroke="none" stroke-width="0"/>
+<text x="90" y="901" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#13655f">4  PADDING</text>
+<text x="1205" y="901" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" fill="#13655f">max sequence length = 10</text>
+<rect x="90" y="930" width="1120" height="88" rx="4" fill="#ffffff" stroke="#9eb3c7" stroke-width="1.8"/>
+<rect x="91" y="931" width="1118" height="43.0" rx="0" fill="#f3f7fb" stroke="none" stroke-width="0"/>
+<line x1="90" y1="974.0" x2="1210" y2="974.0" stroke="#9eb3c7" stroke-width="1.4"/>
+<line x1="202.0" y1="930" x2="202.0" y2="1018" stroke="#b7c7d8" stroke-width="1.2"/>
+<line x1="314.0" y1="930" x2="314.0" y2="1018" stroke="#b7c7d8" stroke-width="1.2"/>
+<line x1="426.0" y1="930" x2="426.0" y2="1018" stroke="#b7c7d8" stroke-width="1.2"/>
+<line x1="538.0" y1="930" x2="538.0" y2="1018" stroke="#b7c7d8" stroke-width="1.2"/>
+<line x1="650.0" y1="930" x2="650.0" y2="1018" stroke="#b7c7d8" stroke-width="1.2"/>
+<line x1="762.0" y1="930" x2="762.0" y2="1018" stroke="#b7c7d8" stroke-width="1.2"/>
+<line x1="874.0" y1="930" x2="874.0" y2="1018" stroke="#b7c7d8" stroke-width="1.2"/>
+<line x1="986.0" y1="930" x2="986.0" y2="1018" stroke="#b7c7d8" stroke-width="1.2"/>
+<line x1="1098.0" y1="930" x2="1098.0" y2="1018" stroke="#b7c7d8" stroke-width="1.2"/>
+<text x="146.0" y="959.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="17" font-weight="400" fill="#354b67">this</text>
+<text x="146.0" y="1004.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="23" font-weight="700" fill="#153a3b">3</text>
+<text x="258.0" y="959.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="17" font-weight="400" fill="#354b67">movie</text>
+<text x="258.0" y="1004.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="23" font-weight="700" fill="#153a3b">4</text>
+<text x="370.0" y="959.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="17" font-weight="400" fill="#354b67">is</text>
+<text x="370.0" y="1004.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="23" font-weight="700" fill="#153a3b">10</text>
+<text x="482.0" y="959.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="17" font-weight="400" fill="#354b67">great</text>
+<text x="482.0" y="1004.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="23" font-weight="700" fill="#153a3b">9</text>
+<text x="594.0" y="959.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="17" font-weight="400" fill="#354b67">and</text>
+<text x="594.0" y="1004.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="23" font-weight="700" fill="#153a3b">2</text>
+<text x="706.0" y="959.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="17" font-weight="400" fill="#354b67">fantastic</text>
+<text x="706.0" y="1004.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="23" font-weight="700" fill="#153a3b">25</text>
+<text x="818.0" y="959.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="17" font-weight="400" fill="#354b67">&lt;PAD&gt;</text>
+<text x="818.0" y="1004.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="23" font-weight="700" fill="#b42323">0</text>
+<text x="930.0" y="959.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="17" font-weight="400" fill="#354b67">&lt;PAD&gt;</text>
+<text x="930.0" y="1004.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="23" font-weight="700" fill="#b42323">0</text>
+<text x="1042.0" y="959.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="17" font-weight="400" fill="#354b67">&lt;PAD&gt;</text>
+<text x="1042.0" y="1004.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="23" font-weight="700" fill="#b42323">0</text>
+<text x="1154.0" y="959.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="17" font-weight="400" fill="#354b67">&lt;PAD&gt;</text>
+<text x="1154.0" y="1004.0" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="23" font-weight="700" fill="#b42323">0</text>
+<rect x="762.0" y="930.0" width="448.0" height="88.0" rx="1" fill="none" stroke="#c62828" stroke-width="3"/>
+</svg>

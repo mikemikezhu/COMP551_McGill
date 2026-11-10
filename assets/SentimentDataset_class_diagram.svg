@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title description">
+  <title id="title">SentimentDataset inherits from Dataset</title>
+  <desc id="description">A UML inheritance arrow points from SentimentDataset to Dataset. The SentimentDataset class contains a three-column table explaining __init__, __len__, and __getitem__ and when each is called.</desc>
+  <rect width="1200" height="675" fill="#ffffff"/>
+
+  <!-- Parent class -->
+  <rect x="430" y="78" width="340" height="70" rx="6" fill="#eef4fc" stroke="#273a57" stroke-width="2.5"/>
+  <text x="600" y="122" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#18253d">Dataset</text>
+
+  <!-- UML generalization: hollow triangle points to the parent -->
+  <line x1="600" y1="179" x2="600" y2="246" stroke="#273a57" stroke-width="3"/>
+  <polygon points="600,148 579,179 621,179" fill="#ffffff" stroke="#273a57" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Child class and table -->
+  <rect x="70" y="246" width="1060" height="362" rx="6" fill="#ffffff" stroke="#273a57" stroke-width="2.5"/>
+  <path d="M76 246 H1124 Q1130 246 1130 252 V318 H70 V252 Q70 246 76 246 Z" fill="#e9f5f3"/>
+  <text x="600" y="292" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#153a3b">SentimentDataset</text>
+
+  <!-- Table header -->
+  <rect x="71" y="319" width="1058" height="47" fill="#f2f6fb"/>
+  <line x1="70" y1="318" x2="1130" y2="318" stroke="#273a57" stroke-width="2"/>
+  <line x1="70" y1="366" x2="1130" y2="366" stroke="#273a57" stroke-width="2"/>
+  <line x1="270" y1="318" x2="270" y2="608" stroke="#a9b8c8" stroke-width="1.7"/>
+  <line x1="700" y1="318" x2="700" y2="608" stroke="#a9b8c8" stroke-width="1.7"/>
+  <text x="95" y="349" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#253a55">Method</text>
+  <text x="295" y="349" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#253a55">Description</text>
+  <text x="725" y="349" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#253a55">Example usage</text>
+
+  <!-- Table row separators -->
+  <line x1="70" y1="446" x2="1130" y2="446" stroke="#c6d1de" stroke-width="1.5"/>
+  <line x1="70" y1="526" x2="1130" y2="526" stroke="#c6d1de" stroke-width="1.5"/>
+
+  <!-- __init__ -->
+  <text x="95" y="414" font-family="Menlo, Consolas, monospace" font-size="23" font-weight="700" fill="#176b69">__init__</text>
+  <text x="295" y="414" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#18253d">Constructor</text>
+  <text x="725" y="403" font-family="Menlo, Consolas, monospace" font-size="18" fill="#18253d">sentiment_dataset =</text>
+  <text x="725" y="429" font-family="Menlo, Consolas, monospace" font-size="18" fill="#18253d">SentimentDataset(X_train, y_train)</text>
+
+  <!-- __len__ -->
+  <text x="95" y="494" font-family="Menlo, Consolas, monospace" font-size="23" font-weight="700" fill="#176b69">__len__</text>
+  <text x="295" y="494" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#18253d">Return the number of samples</text>
+  <text x="725" y="494" font-family="Menlo, Consolas, monospace" font-size="18" fill="#18253d">len(sentiment_dataset)</text>
+
+  <!-- __getitem__ -->
+  <text x="95" y="573" font-family="Menlo, Consolas, monospace" font-size="23" font-weight="700" fill="#176b69">__getitem__</text>
+  <text x="295" y="574" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#18253d">Return one sample at a given index</text>
+  <text x="725" y="574" font-family="Menlo, Consolas, monospace" font-size="18" fill="#18253d">sentiment_dataset[0]</text>
+</svg>
